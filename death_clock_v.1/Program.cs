@@ -1,4 +1,7 @@
-﻿using System;
+Here is the commented code for `Program.cs`:
+
+```c#
+using System;
 using System.IO;
 using System.Text.Json;
 using System.Globalization;
@@ -7,12 +10,14 @@ using System.Threading.Tasks;
 
 namespace LifeExpectancyApp
 {
+    // Class to hold configuration strings
     public class ConfigStrings
     {
         public string[] GreetingMessages { get; set; }
         public string[] LifeExpectancyResponses { get; set; }
     }
 
+    // Class to hold user data
     public class UserData
     {
         public string Name { get; set; }
@@ -64,6 +69,7 @@ namespace LifeExpectancyApp
                 Console.WriteLine("Invalid choice. Please enter 1, 2, or 3.");
             }
 
+            // Set user gender
             userData.Sex = genderChoice switch
             {
                 1 => "male",
@@ -83,7 +89,7 @@ namespace LifeExpectancyApp
                 Console.WriteLine("Invalid date format. Please use mm/dd/yyyy.");
             }
             
-            // Store birthday with day of week
+            // Store birthday and day of the week
             userData.Birthday = birthday.ToString("MM/dd/yyyy");
             userData.BirthDayOfWeek = birthday.ToString("dddd");
             Console.WriteLine($"You were born on a {userData.BirthDayOfWeek}!");
@@ -120,6 +126,7 @@ namespace LifeExpectancyApp
             await StartCountdownAsync(userData.LifeExpectancyDate);
         }
 
+        // Starts the countdown to life expectancy date
         static async Task StartCountdownAsync(DateTime endDate)
         {
             Console.WriteLine("\nStarting Countdown to Life Expectancy...");
@@ -168,22 +175,26 @@ namespace LifeExpectancyApp
             }
         }
 
+        // Formats TimeSpan to a readable string
         static string FormatTimeSpan(TimeSpan timeSpan)
         {
             return $"{timeSpan.Days} days, {timeSpan.Hours} hours, {timeSpan.Minutes} minutes, {timeSpan.Seconds} seconds";
         }
 
+        // Calculates life expectancy based on gender
         static double CalculateLifeExpectancy(string sex)
         {
             return sex.ToLower() == "female" ? 80.2 : 74.8;
         }
 
+        // Loads configuration strings from file
         static ConfigStrings LoadConfigStrings()
         {
             string jsonString = File.ReadAllText(CONFIG_FILE);
             return JsonSerializer.Deserialize<ConfigStrings>(jsonString);
         }
 
+        // Creates default configuration file if it doesn't exist
         static void CreateDefaultConfigFile()
         {
             var defaultConfig = new ConfigStrings
@@ -204,12 +215,14 @@ namespace LifeExpectancyApp
             File.WriteAllText(CONFIG_FILE, jsonString);
         }
 
+        // Returns a random message from an array of messages
         static string GetRandomMessage(string[] messages)
         {
             Random random = new Random();
             return messages[random.Next(messages.Length)];
         }
 
+        // Saves user data to a file
         static void SaveUserData(UserData userData)
         {
             string jsonString = JsonSerializer.Serialize(userData, new JsonSerializerOptions { WriteIndented = true });
@@ -217,3 +230,4 @@ namespace LifeExpectancyApp
         }
     }
 }
+```
