@@ -1,0 +1,9 @@
+{
+  "Name": "Milos",
+  "Sex": "male",
+  "Birthday": "09/06/2023",
+  "BirthDayOfWeek": "Wednesday",
+  "RawLifeExp": 74.8,
+  "LifeExpectancyDate": "2097-09-06T00:00:00",
+  "LifeExpectancyDayOfWeek": "Friday"
+}

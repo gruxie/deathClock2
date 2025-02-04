@@ -1,0 +1,14 @@
+C:\Users\grhodes\Projects\deathClock\death_clock_v.1\obj\Debug\net9.0\death_clock_v.1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\grhodes\Projects\deathClock\death_clock_v.1\obj\Debug\net9.0\death_clock_v.1.AssemblyInfoInputs.cache
+C:\Users\grhodes\Projects\deathClock\death_clock_v.1\obj\Debug\net9.0\death_clock_v.1.AssemblyInfo.cs
+C:\Users\grhodes\Projects\deathClock\death_clock_v.1\obj\Debug\net9.0\death_clock_v.1.csproj.CoreCompileInputs.cache
+C:\Users\grhodes\Projects\deathClock\death_clock_v.1\bin\Debug\net9.0\death_clock_v.1.exe
+C:\Users\grhodes\Projects\deathClock\death_clock_v.1\bin\Debug\net9.0\death_clock_v.1.deps.json
+C:\Users\grhodes\Projects\deathClock\death_clock_v.1\bin\Debug\net9.0\death_clock_v.1.runtimeconfig.json
+C:\Users\grhodes\Projects\deathClock\death_clock_v.1\bin\Debug\net9.0\death_clock_v.1.dll
+C:\Users\grhodes\Projects\deathClock\death_clock_v.1\bin\Debug\net9.0\death_clock_v.1.pdb
+C:\Users\grhodes\Projects\deathClock\death_clock_v.1\obj\Debug\net9.0\death_clock_v.1.dll
+C:\Users\grhodes\Projects\deathClock\death_clock_v.1\obj\Debug\net9.0\refint\death_clock_v.1.dll
+C:\Users\grhodes\Projects\deathClock\death_clock_v.1\obj\Debug\net9.0\death_clock_v.1.pdb
+C:\Users\grhodes\Projects\deathClock\death_clock_v.1\obj\Debug\net9.0\death_clock_v.1.genruntimeconfig.cache
+C:\Users\grhodes\Projects\deathClock\death_clock_v.1\obj\Debug\net9.0\ref\death_clock_v.1.dll

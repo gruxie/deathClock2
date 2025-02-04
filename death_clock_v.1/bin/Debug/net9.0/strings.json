@@ -1,0 +1,13 @@
+{
+  "GreetingMessages": [
+    "Howdy {name}, what a dumb name!  Let's get going!",
+    "Hey {name}, welcome to your life journey!",
+    "Nice to meet you, {name}! Let\u0027s explore your potential lifespan.",
+    "Greetings, {name}! Ready to peek into your future?"
+  ],
+  "LifeExpectancyResponses": [
+    "This is your incept date. Things are fine, just fine! {date}",
+    "Your journey ends on {date}. Buckle up!",
+    "Mark your calendar: {date} is the big day!"
+  ]
+}
